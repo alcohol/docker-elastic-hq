@@ -2,6 +2,8 @@
 
 A simplistic Docker image, that serves up [ElasticHQ] using nginx, while requiring no privileges to run.
 
+Docker Hub: https://hub.docker.com/r/alcohol/elastic-hq/
+
 # running
 
 ```
