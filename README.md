@@ -14,13 +14,13 @@ docker run --rm -d --cap-drop ALL --publish 8000:8000 --name elastic-hq alcohol/
 
 ## 3.x
 
-Since `3.0.0`, the default port exposed by the container has changed due to upstream changes.
-
 ```
 docker run --rm -d --cap-drop ALL --publish 8000:5000 --name elastic-hq alcohol/elastic-hq
 ```
 
-> Note: while previously the connection was established within the browser, since version 3.0.0,
+> Note: Since v3.0.0, the default port exposed by the container has changed due to upstream changes.
+
+> Important: while previously the connection was established within the browser, since version v3.0.0,
 > it is established inside the container. This means that your container will need to be able to
 > resolve and connect to your target host.
 
