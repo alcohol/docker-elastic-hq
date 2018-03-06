@@ -4,7 +4,7 @@ COPY --from=python:3.6-alpine / /
 
 WORKDIR /srv
 
-ARG archive=https://github.com/ElasticHQ/elasticsearch-HQ/archive/v3.0.0.tar.gz
+ARG archive=https://github.com/ElasticHQ/elasticsearch-HQ/archive/v3.0.3.tar.gz
 
 # I strip the top level directory from the archive because
 # Github tarballs wrap the entire repo in a top level directory
